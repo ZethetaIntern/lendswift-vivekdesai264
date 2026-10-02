@@ -1,0 +1,106 @@
+{
+  "personalLoan": {
+    "loanType": "personal",
+    "loanAmount": 300000,
+    "tenure": 36,
+    "purpose": "Medical Emergency",
+    "applicant": {
+      "fullName": "Rajesh Kumar Sharma",
+      "dateOfBirth": "1990-05-15",
+      "gender": "male",
+      "maritalStatus": "single",
+      "email": "rajesh.sharma@email.com",
+      "mobile": "9876543210",
+      "fatherName": "Ramesh Kumar Sharma",
+      "motherName": "Sunita Sharma"
+    },
+    "kyc": {
+      "panNumber": "ABCPE1234F",
+      "aadhaarNumber": "234123412346"
+    },
+    "address": {
+      "addressLine1": "Flat 4B, Sunshine Apartments, MG Road",
+      "pinCode": "560001",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "residenceType": "owned",
+      "yearsAtAddress": 5
+    },
+    "employment": {
+      "employmentType": "salaried",
+      "employerName": "Infosys Limited",
+      "designation": "Senior Software Engineer",
+      "employmentSince": "2018-03-01",
+      "companyType": "private_listed",
+      "monthlyIncome": 80000,
+      "salaryAccount": "bank"
+    }
+  },
+  "homeLoan": {
+    "loanType": "home",
+    "loanAmount": 5000000,
+    "tenure": 180,
+    "purpose": "Purchase New Home",
+    "applicant": {
+      "fullName": "Priya Mehta",
+      "dateOfBirth": "1985-11-20",
+      "gender": "female",
+      "maritalStatus": "married",
+      "email": "priya.mehta@gmail.com",
+      "mobile": "8765432109",
+      "fatherName": "Vikram Mehta",
+      "motherName": "Kavita Mehta"
+    },
+    "employment": {
+      "employmentType": "self_employed",
+      "businessName": "Dr. Priya's Wellness Clinic",
+      "profession": "Medical Doctor",
+      "businessSince": "2015-06-01",
+      "monthlyIncome": 150000
+    },
+    "coApplicant": {
+      "fullName": "Arjun Mehta",
+      "relationship": "spouse",
+      "dateOfBirth": "1983-03-10",
+      "mobile": "9988776655",
+      "email": "arjun.mehta@email.com",
+      "panNumber": "DEFPM4321H",
+      "employmentType": "salaried",
+      "monthlyIncome": 120000
+    }
+  },
+  "businessLoan": {
+    "loanType": "business",
+    "loanAmount": 3000000,
+    "tenure": 60,
+    "purpose": "Business Expansion",
+    "applicant": {
+      "fullName": "Suresh Agarwal",
+      "dateOfBirth": "1975-07-08",
+      "gender": "male",
+      "maritalStatus": "married",
+      "email": "suresh.agarwal@biztech.in",
+      "mobile": "7654321098",
+      "fatherName": "Mahesh Agarwal",
+      "motherName": "Pushpa Agarwal"
+    },
+    "employment": {
+      "employmentType": "business_owner",
+      "businessName": "BizTech Solutions Pvt Ltd",
+      "businessType": "pvt_ltd",
+      "gstNumber": "03AACPA1234C1ZK",
+      "businessSince": "2005-04-01",
+      "monthlyIncome": 200000,
+      "annualTurnover": 25000000
+    },
+    "coApplicant": {
+      "fullName": "Meena Agarwal",
+      "relationship": "spouse",
+      "dateOfBirth": "1978-09-15",
+      "mobile": "8877665544",
+      "panNumber": "BEFPA5678D",
+      "employmentType": "homemaker",
+      "monthlyIncome": 0
+    }
+  }
+}
